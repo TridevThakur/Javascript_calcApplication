@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>GCS</title>
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    </head>
+    <body style="background-color: cadetblue">
+
+      
+      <div class="container fw-bold">
+<br><br>
+        <div class="row">
+           <div class="col-8 m-auto bg-warning text-white p-4">
+             <h4 class="text-center">ONLINE GRADE CALCULATING SYSTEM</h4>
+           </div>
+
+        </div>
+
+      <div class="row">
+        <div class="col-lg-8 col-md-12 bg-white p-5 m-auto d-flex justify-content-around">
+         <div class="col-md-4 ">
+            <div>
+                 
+              
+                  <div class="book1 mb-3">
+                  
+                      <label>Computer</label>
+                      <input class="form-control" id="b1" type="number" name="" placeholder="Marks">
+  
+                   </div>
+            
+            
+                  <div class="book2 mb-3">
+
+                     <label>Science</label>
+                     <input class="form-control"  id="b2"type="number" name="" placeholder="Marks">
+
+                  </div>
+
+
+                  <div class="book3 mb-3">
+
+                    <label>Mathematics</label>
+                    <input class="form-control" id="b3" type="number" name="" placeholder="Marks">
+  
+                  </div>
+
+
+                  <div class="Social Studies mb-3">
+
+                       <label>Social Studies</label>
+                       <input class="form-control" id="b4" type="number" name="" placeholder="Marks">
+  
+                  </div>
+
+
+                  <div class="EPH mb-3">
+
+                        <label>Health Education</label>
+                        <input class="form-control" id="b5"type="number" name="" placeholder="Marks">
+  
+                  </div>
+
+
+            <button class="btn btn-danger col-12" onclick="calculate()">Calculate</button>
+          </div>
+         </div>
+
+         <div class="col-md-4 d-flex align-items-center">
+
+          <table class="table table-bordered border-dark">
+              <tr>
+                <td>Total Marks:</td>
+                <td>500</td>
+              </tr>
+
+              <tr>
+                <td> Marks Obtained:</td>
+                <td id="obtain"></td>
+              </tr>
+
+              <tr>
+                <td>Percent:</td>
+                <td id="per"></td>
+              </tr>
+
+              <tr>
+                <td>Grade Point:</td>
+                <td id="grade"></td>
+              </tr>
+
+              <tr>
+                <td>Status:</td>
+                <td id="remark"></td>
+              </tr>
+
+            </table>
+          </div>
+         </div>
+
+    </div>
+
+  </div>
+  
+      <script type="text/javascript" src="grade.js"></script>
+  
+    </body>
+
+</html>
